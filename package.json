@@ -1,0 +1,29 @@
+{
+  "name": "sunvoy-challenge",
+  "version": "1.0.0",
+  "description": "Reverse engineering legacy web application for Sunvoy challenge.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "prestart": "npm run build"
+  },
+  "keywords": [
+    "sunvoy",
+    "reverse-engineering",
+    "typescript",
+    "node.js"
+  ],
+  "author": "Your Name Here",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "tough-cookie": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "@types/tough-cookie": "^4.0.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
